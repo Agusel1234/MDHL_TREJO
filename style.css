@@ -1,1 +1,19 @@
-section {background: black;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header figure{
+    height: 100%;
+}
+header figure img{
+    width: 100%;
+}
+h1.titulo { border: solid;
+    padding: 0.3rem;
+    text-align: center;
+    
+}
+
+
