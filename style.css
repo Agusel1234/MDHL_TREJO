@@ -10,6 +10,11 @@ border: solid aqua;
 border: 0.3px;
 }
 
+figure img{
+ display: block;
+ height: 350px;
+}
+
 nav.primera {
 display: inline;
 margin-left: 19%;
@@ -44,7 +49,19 @@ h1.titulo { border: solid;
     text-align: center;
     margin-top: 0%;
 }
-
+section.logo{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+section.logo img{
+    height: 200px ; 
+}
+section {
+    display: inline-block;
+    width: 470px;;
+    height: 100%;
+}
 
 
 
