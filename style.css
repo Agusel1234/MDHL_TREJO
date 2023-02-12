@@ -5,6 +5,9 @@
     font-family: sans-serif;
 
 }
+header{
+    min-height: 10vh;
+}
 header h1{ display: inline;
 border: solid aqua; 
 border: 0.3px;
@@ -13,6 +16,7 @@ border: 0.3px;
 figure img{
  display: block;
  height: 350px;
+ background-color: black;
 }
 
 nav.primera {
@@ -28,6 +32,7 @@ nav {
     border: 10px 10px;
    position: relative ;
    left: 20%;
+   top: 10px;
    
 }
 a{
@@ -37,38 +42,46 @@ a{
     
 }
 
-nav.tercera{
-    display: inline;
-    border: solid red;
-background-color: blue;
-color: black;}
-
-
-main figure img{
+header figure img{
     width: 100%;
 }
 h1.titulo { border: solid;
     padding: 0.3rem;
     text-align: center;
     margin-top: 0%;
+    display: block;
 }
+
 figure.logo{
     display: inline-block;
     height: 200px;
     width: 200px;
 }
 figure.logo img{
-    height: 200px ;
-    width: 200px; 
+    width: 60%;
+    height: 60%; 
 }
 section {
     display: inline-block;
-    width: 470px;;
-    height: 100%;
-    position: relative;
-    top: 50%;
+    width: 80vh;
+    height: 100%; 
+   vertical-align: top;
 }
-
+figure  img{
+    display: inline;
+    width: 100%;
+    height: 60%; 
+    vertical-align: top;
+}
+figure.imagen {
+    display: inline-block;
+    width: 40vh;
+    height: 40vh; 
+   vertical-align: top;
+   margin-left: 20%;
+   position: relative;
+   left: 5%;
+}
 
 
     
