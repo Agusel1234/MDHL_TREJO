@@ -25,21 +25,25 @@ margin-left: 19%;
 }
 
 nav { 
+    min-height: 5vh;
+    padding: 3rem;
     display: inline;
-    border: solid rgb(3, 0, 0);
     margin-left: 1.3%;
     padding: 0%;
     border: 10px 10px;
    position: relative ;
    left: 20%;
    top: 10px;
-   
 }
-a{
+
+a{ padding: 0.5rem 1rem;
+    border-radius: 6rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(44, 91, 179);
-    
+}
+a:hover{
+    background-color: greenyellow;
 }
 
 header figure img{
@@ -75,10 +79,10 @@ figure  img{
 }
 figure.imagen {
     display: inline-block;
-    width: 40vh;
-    height: 40vh; 
+    width: 200px;
+    height: 200px; 
    vertical-align: top;
-   margin-left: 20%;
+   margin-left: 5%;
    position: relative;
    left: 5%;
 }
