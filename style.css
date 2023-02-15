@@ -16,18 +16,18 @@ border: 0.3px;
 
 nav.primera {
 display: inline;
-margin-left: 19%;
+margin-left: 10%;
 }
 nav { 
-    min-height: 5vh;
-    padding: 3rem;
     display: inline;
+    min-height: 5vh;
+    padding: 15%;
     margin-left: 1.3%;
     padding: 0%;
     border: 10px 10px;
    position: relative ;
    left: 20%;
-   top: 10px;
+   top: 15px;
 }
 
 a{ padding: 0.5rem 1rem;
@@ -68,13 +68,12 @@ figure.logo img{
 }
 section {
     display: inline-block;
-    width: 80vh;
+    width: 100vh;
     height: 100%; 
    vertical-align: top;
 }
 section.mail a {
     background-color: white;
-    border: coral;
     padding: 0%;
     color:rgb(78, 123, 221)
 }
@@ -101,6 +100,29 @@ figure.imagen img{
     bottom: 10px;
 }
 
+header.nueva{ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0%;
+}
+header.nueva nav{
+    padding: 0;
+}
+main h1{
+    text-align: center;
+}
+p.subrrayado{ text-decoration: underline; 
+    font-style: italic; 
+}
 
-    
 
+section.primera{
+    display: flex;
+padding: 10px;
+width: 100%;}
+
+section.ultima{  display:flex;
+padding: 10px;
+text-align: center; }
+section.ultima p{ flex-grow: 1;
+     }
