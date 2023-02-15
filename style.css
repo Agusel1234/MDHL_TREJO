@@ -109,7 +109,7 @@ header.nueva nav{
     padding: 0;
 }
 
-main h1, h2{
+main h1, h2, .parrafo{
     text-align: center;
 }
 p.subrrayado{ text-decoration: underline; 
@@ -136,3 +136,14 @@ section.ultima p{ flex-grow: 1;
 div table{
     width: 80vh;
 }
+div.listas{ display: block;
+text-align: justify;}
+dt {font-weight: 700;
+}
+li, dd{
+    margin-left :2rem ;
+}
+span {
+    font-weight: 700;
+}
+ul{ list-style: circle;}
