@@ -5,12 +5,14 @@
     font-family: sans-serif;
 
 }
-header{
+main { background-image: url(https://th.bing.com/th/id/OIP._JvUPZMOr7YAMwXyCrHJjwHaDR?w=305&h=154&c=7&r=0&o=5&pid=1.7)
+}
+    header{
     min-height: 10vh;
-    background-color: azure;
+    background-color: rgb(196, 194, 194);
 }
 header h1{ display: inline;
-border: solid aqua; 
+border: solid rgba(142, 145, 145, 0.055); 
 border: 0.3px;
 }
 
@@ -173,6 +175,7 @@ iframe{
 }
 
 @media (max-width:1024px) {
+    
 nav { 
     margin-left: 0%;
     position: relative;
