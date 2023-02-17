@@ -14,13 +14,10 @@ border: solid aqua;
 border: 0.3px;
 }
 
-nav.primera {
-display: inline;
-}
 nav { 
     display: inline;
     min-height: 5vh;
-    padding: 15%;
+    padding: 0;
     margin-left: 1.3%;
     padding: 0%;
     border: 10px 10px;
@@ -160,3 +157,70 @@ label {
 div.separar{
     padding: 0.5rem;
 }
+.maps a{background-color: white;
+    color: blue;
+    padding: 0%;
+    
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.mapa{
+   display: inline-block;
+   width: 30vh;
+   left: 0%;
+}
+
+@media (max-width:1024px) {
+nav { 
+    margin-left: 0%;
+    position: relative;
+    left:0%}
+    figure.imagen {
+        position: relative;
+        left: 0%;}
+    }
+    @media (max-width:960px) {
+        nav, header h1 { 
+            display: block;
+            margin-left: 0%;
+            text-align: center;
+            position: relative;
+            left:0%;
+        top: 0%; }            a{
+              background-color: transparent;
+                color: black;
+                padding: 0%;
+                font-family: sans-serif;
+            }
+            header.nueva{
+                display: block;
+            }
+            figure.imagen{
+                display: block;
+                width: 100%;
+                height: 100%;
+               position: relative;
+               left: 0%; }
+            }
+            @media (max-width:741px){
+                header{
+                    width: 100%;
+                }
+                body{
+                    width: 100%;
+                }
+                section {
+display: inline;
+                }
+                figure.logo{
+                height: 100px;
+                    width: 200px;
+                }
+                figure.logo img{
+                    width: 60%;
+                    height: 100%; 
+                }
+
+            } 
